@@ -24,3 +24,19 @@ I'm tired of my job and I want to change my profession
 3. JS (basic)
 
 ---
+
+## Code example
+
+```
+const oddSort = (arr) => {
+        let newArr = arr.filter((a) => a % 2 != 0).sort((a, b) => a - b);
+        for (let j = 0; j < arr.length; j++) {
+          if (arr[j] % 2 == 0) {
+            newArr.splice(j, 0, arr[j]);
+          }
+        }
+        return newArr;
+      };
+```
+
+---
