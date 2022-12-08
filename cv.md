@@ -40,3 +40,16 @@ const oddSort = (arr) => {
 ```
 
 ---
+
+## Education
+
+- **University:** BNTU, energy faculty, engineer-economist
+- **Courses:**
+  - [FD1.IT Academy](https://www.it-academy.by/course/front-end-developer/fd1-razrabotka-veb-saytov-s-ispolzovaniem-html-css-i-javascript/)
+  - [FD2.IT Academy](https://www.it-academy.by/course/front-end-developer/razrabotka-veb-prilozheniy-na-javascript/)
+
+---
+
+## English
+
+**B1**
