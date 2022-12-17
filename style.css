@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *,
 *::after,
@@ -7,6 +8,112 @@ html {
   box-sizing: inherit;
 }
 
-.h1 {
-  color: red;
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  color: #386493;
+  display: flex;
+  flex-direction: column;
 }
+a {
+  color: black;
+  text-decoration: none;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+h1,
+h2 {
+  font-family: "Jura", sans-serif;
+  color: #2e639b;
+  font-weight: bold;
+}
+/* header styles start */
+.header,
+.footer {
+  background-color: #6e9bca;
+}
+.header-nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.header-nav-list li {
+  margin-right: 1%;
+}
+.header-nav-list a {
+  color: #ffffff;
+  transition: 0.3s;
+}
+.header-nav-list a:hover {
+  color: rgb(20, 20, 145);
+}
+.header-nav-list a:active {
+  color: rgb(11, 11, 100);
+}
+/* header styles end */
+
+/* main styles start */
+h1 {
+  font-size: 3em;
+}
+.main a {
+  color: #386493;
+}
+.cv-title {
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 40px solid #6e9bca;
+}
+.cv-title img {
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 50%;
+}
+.cv-title p {
+  text-align: center;
+}
+.cv-profile-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cv-profile-info section {
+  margin: 0 3%;
+  padding: 0 3%;
+}
+.cv-profile-info
+  section:not(.cv-profile-info #education, .cv-profile-info #english) {
+  border-bottom: 10px solid #6e9bca;
+}
+
+/* main styles end */
+
+/* footer styles start */
+.footer {
+  flex: 0 0 auto;
+  position: relative;
+  min-height: 60px;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright-block {
+  display: inline-block;
+  margin-left: 3%;
+}
+
+.rss-logo img {
+  display: inline-block;
+  width: 60%;
+}
+.copyright-block,
+.copyright-block a {
+  color: #ffffff;
+}
+/* footer styles end */
