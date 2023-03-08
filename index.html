@@ -81,8 +81,8 @@
           <section id="code">
             <h2>Code example</h2>
             <pre>
-              const oddSort = (arr) => {
-                let newArr = arr.filter((a) => a % 2 != 0).sort((a, b) => a - b);
+              const oddSort = (arr) =&gt; {
+                let newArr = arr.filter((a) =&gt; a % 2 != 0).sort((a, b) =&gt; a - b);
                 for (let j = 0; j &lt; arr.length; j++) {
                   if (arr[j] % 2 == 0) {
                     newArr.splice(j, 0, arr[j]);
